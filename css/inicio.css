@@ -710,17 +710,27 @@ li {
     font-size: 27px;
     color: white;
 }
-
+.img__album {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
 .amaru {
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    transition: .5s ease-in-out all;
+    border-radius: 10px;
+}
+.amaru:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .amaru__text {
     display: flex;
@@ -738,11 +748,17 @@ li {
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    border-radius: 10px;
+    transition: .5s ease-in-out all;
+}
+.cle__by__cleo:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .cle__by__cleo__text {
     display: flex;
@@ -760,11 +776,17 @@ li {
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    border-radius: 10px;
+    transition: .5s ease-in-out all;
+}
+.hera:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .hera__text {
     display: flex;
@@ -782,11 +804,17 @@ li {
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    border-radius: 10px;
+    transition: .5s ease-in-out all;
+}
+.la__sala:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .la__sala__text {
     display: flex;
@@ -804,11 +832,17 @@ li {
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    border-radius: 10px;
+    transition: .5s ease-in-out all;
+}
+.lolita:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .lolita__text {
     display: flex;
@@ -826,11 +860,17 @@ li {
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    border-radius: 10px;
+    transition: .5s ease-in-out all;
+}
+.maillot:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .maillot__text {
     display: flex;
@@ -848,11 +888,17 @@ li {
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    border-radius: 10px;
+    transition: .5s ease-in-out all;
+}
+.malma:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .malma__text {
     display: flex;
@@ -870,11 +916,17 @@ li {
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    border-radius: 10px;
+    transition: .5s ease-in-out all;
+}
+.marthina__collection:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .marthina__collection__text {
     display: flex;
@@ -892,11 +944,17 @@ li {
     flex-direction: column;
     padding-top: 3rem;
     margin: 20px;
-    height: 650px;
-    width: 600px;
+    height: 550px;
+    width: 500px;
     align-items: center;
     justify-content: center;  
-    background-color: #ff90405d;
+    background-color: #ff90403d;
+    border-radius: 10px;
+    transition: .5s ease-in-out all;
+}
+.vida__salud:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
 .vida__salud__text {
     display: flex;
@@ -914,7 +972,7 @@ li {
     padding-top: 100px;
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 7rem;
 }
 
 .album__1 {
