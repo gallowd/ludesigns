@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="../css/inicio.css">
+
+    <link rel="icon" type="image/jpg" href="/Ludesigns/images/logo_3.png"/>
+
+    <!--Sarabun-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sarabun:wght@200&display=swap" rel="stylesheet">
+
+    <!--Metal-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
+
+    <!--Red Hat Display-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+    <header class="header">
+        
+        <div class="div__logo">
+            <img src="../images/logo.png" width="150" height="78" class="logo"> <!--Logo-->
+        </div>
+
+        <nav class="nav"> <!--Navegacion-->
+            <ul class="nav__lista">
+                <li><a class="nav__link" href="../index.html">Inicio</a class="link"></li>
+                <li><a class="nav__link" href="paquetes.html">Paquetes</a class="link"></li>
+                <li><a class="nav__link" href="album.html">Album</a class="link"></li>
+                <li><a class="nav__link" href="sobre_nosotros.html">Sobre nosotros</a class="link"></li>
+                <li><a class="nav__link" href="contacto.html">Contacto</a class="link"></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section> <!--Presentacion del medio de contacto-->
+
+            <div class="presentacion__contacto"> <!--Descripcion y presentacion-->
+                <h1 class="presentacion__titulo__contacto">Contactanos y hablemos</h1>
+                <p class="presentacion__text__contacto">Para solicitar un paquete en especifico, hacer preguntas sobre las mismas o algun otro tema, dejanos tu informacion y te contactaremos enseguida.</p>
+            </div>
+    
+        </section>
+
+        <section> <!--formulario-->
+
+            <form class="formulario__contacto">
+
+                <div> <!--nombre-->
+                    <label for="nombre"></label>
+                    <input required type="text" id="nombre" name="nombre" placeholder="Nombre" class="controls__contacto">
+                </div>
+                <div> <!--apellido-->
+                    <label for="apellido"></label>
+                    <input required type="text" id="apellido" name="apellido" placeholder="Apellido" class="controls__contacto">
+                </div>
+                <div> <!--email-->
+                    <label for="email"></label>
+                    <input required type="text" id="email" name="email" placeholder="Email" class="controls__contacto">
+                </div>
+
+                <div> <!--tipo de pregunta-->
+                    <label for="tipo"></label>
+                    <select required name="tipo" id="tipo" class="controls__contacto">
+                        <option disabled selected="">Motivo</option>
+                        <option value="Interes en Paquete de redes sociales">Interes en Paquete de redes sociales</option>
+                        <option value="Interes en Paquete de logo basico">Interes en Paquete de logo basico</option>
+                        <option value="Interes en Paquete de logo empresarial">Interes en Paquete de logo empresarial</option>
+                        <option value="Interes en Paquete de logo intermedio">Interes en Paquete de logo intermedio</option>
+                        <option value="Interes en Paquete de logo premium">Interes en Paquete de logo premium</option>
+                        <option value="Pregunta general">Pregunta general</option>
+                    </select>
+                </div>
+
+                <section class="sexo__contacto"> <!--sexo-->
+                    <div> 
+                        <label for="hombre">Hombre</label>
+                        <input required type="radio" id="hombre" name="genero" value="hombre">
+                    </div>
+    
+                    <div>
+                        <label for="mujer">Mujer</label>
+                        <input required type="radio" id="mujer" name="genero" value="mujer">
+                    </div>
+                </section>
+
+                <div> <!--comentarios-->
+                    <label for="comentario"></label>
+                    <textarea name="comentario" id="comentario" cols="52" rows="20" placeholder="Comentarios"></textarea>
+                    <div class="button__contacto__container">
+                        <button class="button__contacto"><span>Enviar</span></button>
+                        <input type="reset" value="Limpiar" class="button__contacto__limpiar">    
+                    </div>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="footer__logo"> <!--Logo de Lu Designs-->
+            <img src="../images/logo_2.png" width="90" height="82">
+        </section>
+
+        <section class="footer__down">
+
+            <section class="footer__text"> <!--Derechos de autor-->
+                <h6>© 2022 | Derechos Reservados Braulio Zamora</h6>
+                <h6>¿Buscando una identidad de marca unica? En nuestro sitio web oficial Lu Deigns puedes encontrar diseños cautvadores, obtener uno propio y unico para el proposito que tengas</h6>
+            </section>
+
+            <section class="footer__redes"> <!--Redes sociales-->
+                <li><a href="https://www.facebook.com/luisaelena.bolla" target="_blank"><img src="../images/facebook.png" width="12" height="20"></a></li>
+                <li><a href="https://www.instagram.com/lubdesigns/" target="_blank"><img src="../images/instagram.png" width="20" height="20"></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=584248101365" target="_blank"><img src="../images/whatsapp.png" width="22" height="20"></a></li>
+            </section>
+
+        </section>
+
+    </footer>
+
+</body>
+</html>
