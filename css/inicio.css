@@ -52,6 +52,10 @@ button {
     text-decoration: none;
     font-family: 'Sarabun', sans-serif;
     font-size: 15px;
+    transition: .2s ease-in-out;
+}
+.nav__link:hover {
+    color: white;
 }
 
 .header {
@@ -302,12 +306,6 @@ li {
 .button__paquetes__redes:hover::after {
     transform: scale(55);
     background-color: #ff7876;
-}
-.nav__link {
-    color: black;
-    text-decoration: none;
-    font-family: 'Sarabun', sans-serif;
-    font-size: 15px;
 }
 .paquetes__logos {
     width: 100%;
