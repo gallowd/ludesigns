@@ -54,6 +54,7 @@ button {
 }
 .presentacion__index {
     display: flex;
+    margin-top: 1rem;
     flex-direction: column;
     width: 100%;
     min-height: 600px;
@@ -69,6 +70,7 @@ button {
     display: flex;
     padding-left: 2rem;
     padding-top: 10px;
+    margin-bottom: 0px;
     font-family: 'Gelasio', serif;
     font-size: 65px;
     color: white;
@@ -80,23 +82,25 @@ button {
     display: flex;
     padding-left: 2rem;
     padding-bottom: 10px;
+    margin-bottom: 0px;
     font-family: 'Sarabun', sans-serif;
     font-size: 20px;
     color: white;
     background-color: #ff787680; 
+}
+.paquetes__index {
+    font-size: 30px;
 }
 .button__index__paquetes {
     display: inline-flex;
     width: 200px;
     height: 60px;
     background: none;
-    font-size: 20px;
-    text-decoration: none;
+    text-transform: uppercase;
     align-items: center;
     justify-content: center;
     border: none;
     cursor: pointer;
-    text-decoration: none;
     border-radius: 3px;
     position: relative;
     overflow: hidden;
@@ -107,18 +111,10 @@ button {
 .button__index__paquetes:hover {
     transform: scale(1.2);
     background-color: #ff78769a;
+    
 }
 li {
     list-style: none;
-}
-.pagina__link {
-    padding-left: 2rem;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: white;
-    text-decoration: none;
-    font-family: 'Sarabun', sans-serif;
-    font-size: 26px;
 }
 .main__index__2 {
     display: flex;
@@ -1595,10 +1591,6 @@ li {
     .parrafo__index {
         width: 80%;
         font-size: 20px;
-        padding-left: 1rem;
-    }
-
-    .pagina__link {
         padding-left: 1rem;
     }
 
