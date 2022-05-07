@@ -1532,13 +1532,29 @@ li {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     .disigns__index {
-        transform: scale(0.55);
+        max-width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .main__index__2 {
-        padding-top: 0px;
+        padding-top: 100px;
+    }
+    .image__left__index {
+        width: 30%;
+        height: 12.5%;
+        margin-right: 20px;
+    }
+    .image__center__index {
+        width: 40%;
+        height: 20%;
+    }
+    .image__right__index {
+        width: 30%;
+        height: 12.5%;
+        margin-left: 20px;
     }
     .presentacion__index__2 {
-        margin-top: 0px;
+        padding-bottom: 1rem;
     }
     .paquetes {
         padding-bottom: 4rem;
@@ -1633,8 +1649,8 @@ li {
         display: none;
     }
     .image__center__index {
-        width: 220px;
-        height: 220px;
+        width: 80%;
+        height: 45%;
     }
     .presentacion__index__2 {
         text-align: center;
@@ -1759,8 +1775,8 @@ li {
     }
 
     .image__center__index {
-        width: 220px;
-        height: 220px;
+        width: 80%;
+        height: 45%;
     }
 
     .presentacion__index__2 {
