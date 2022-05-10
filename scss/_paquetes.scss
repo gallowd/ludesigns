@@ -1,0 +1,149 @@
+.presentacion__paquetes {
+    width: 100%;
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/portada_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5rem;
+
+    .presentacion__paquetes__titulo {
+        font-family: 'Metal', cursive;
+        font-size: 80px;
+        color: white;
+    }
+
+    .presentacion__paquetes__text {
+        font-family: 'Metal', cursive;
+        font-size: 24px;
+        color: white;
+    }
+
+}
+
+.paquetes {
+    padding-top: 8rem;
+    padding-bottom: 9rem;
+
+    .paquetes__redes {
+        width: 100%;
+        min-height: 100px;
+        background-color: #ff787652;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 7rem;
+
+        .redes {
+            display: flex;
+            padding: 2rem;
+            flex-direction: column;
+            justify-content: center;
+
+            .redes__titulo__paquetes {
+                font-family: 'Metal', cursive;
+                font-size: 50px;
+                text-align: right;
+            }
+
+            .redes__text__paquetes {
+                font-family: 'Metal', cursive;
+                padding-bottom: 3rem;
+                font-size: 18px;
+                text-align: right;
+            }
+
+            .button__paquetes__redes__position {
+                display: flex;
+                justify-content: flex-end;
+
+                .button__paquetes__redes::after {
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    position: absolute;
+                    z-index: 1;
+                    transition: .3s ease-in-out all;
+                    transform-origin: center;
+                    border-radius: 100px;
+                }
+                .button__paquetes__redes:hover::after {
+                    transform: scale(55);
+                    background-color: #ff7876;
+                }
+                .button__paquetes__redes span {
+                    position: relative;
+                    z-index: 2;
+                    transition: .3s ease all;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .redes__image__paquetes {
+            padding: 3rem;
+        }
+    }
+
+    .paquetes__logos {
+        width: 100%;
+        min-height: 100px;
+        background-color: #ff90406f;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+
+        .paquetes__logos__image {
+            padding: 3rem;
+        }
+
+        .logos__presentacion__paquetes {
+            display: flex;
+            padding: 2rem;
+            flex-direction: column;
+            justify-content: center;
+
+            .logos__titulo__paquetes {
+                font-family: 'Metal', cursive;
+                font-size: 50px;
+                text-align: left;
+            }
+            
+            .logos__text__paquetes {
+                font-family: 'Metal', cursive;
+                padding-bottom: 3rem;
+                font-size: 18px;
+                text-align: left;
+            }
+
+            .button__paquetes__logos span {
+                position: relative;
+                z-index: 2;
+                transition: .3s ease all;
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+            .button__paquetes__logos::after {
+                content: "";
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                z-index: 1;
+                transition: .3s ease-in-out all;
+                transform-origin: center;
+                border-radius: 100px;
+            }
+            .button__paquetes__logos:hover::after {
+                transform: scale(55);
+                background-color: #ff7876;
+            }
+        }
+    }
+
+}
+
