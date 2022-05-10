@@ -73,7 +73,7 @@
                 }
                 .button__paquetes__redes:hover::after {
                     transform: scale(55);
-                    background-color: #ff7876;
+                    background-color: $bgbuttonhover;
                 }
                 .button__paquetes__redes span {
                     position: relative;
@@ -140,7 +140,7 @@
             }
             .button__paquetes__logos:hover::after {
                 transform: scale(55);
-                background-color: #ff7876;
+                background-color: $bgbuttonhover;
             }
         }
     }

@@ -1,6 +1,11 @@
+@import './variables';
+
 @import './index';
+
 @import './footer';
+
 @import './paquetes';
+
 @import './paquetes__logo';
 
 *{
@@ -14,7 +19,7 @@ button {
     padding-left: 2rem;
     padding-right: 2rem;
     height: 60px;
-    background-color: #ff78769a;
+    background-color: $bgbutton;
     font-size: 20px;
     text-decoration: none;
     align-items: center;

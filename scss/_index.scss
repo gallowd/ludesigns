@@ -161,7 +161,7 @@
     }
     .button__index:hover::after {
         transform: scale(55);
-        background-color: #ff7876;
+        background-color: $bgbuttonhover;
     }
 
 }
