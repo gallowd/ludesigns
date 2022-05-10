@@ -1,0 +1,19 @@
+{
+  "name": "ludesigns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./scss/style.scss ./css/inicio.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gallowd/ludesigns.git"
+  },
+  "author": "Braulio Zamora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gallowd/ludesigns/issues"
+  },
+  "homepage": "https://github.com/gallowd/ludesigns#readme"
+}
