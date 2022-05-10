@@ -1231,6 +1231,9 @@ li {
     font-family: 'Metal', cursive;
     font-size: 80px;
     color: white;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .ludesigns__SobreNosotros {
     padding-top: 7rem;
@@ -1253,94 +1256,33 @@ li {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    padding: 5rem;
+    padding: 3rem;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem;
+    font-size: 20px;
 }
 .lu__inicio__SobreNosotros {
     font-size: larger;
 }
 .lu__image__SobreNosotros {
     padding: 3rem;
+    width: 600px;
 }
-.mo__SobreNosotros {
-    display: flex;
+.equipo {
     background-color: #ffc6b5aa;
-    margin-left: 5rem;
-    justify-content: left;
-    align-items: center;
-    padding-right: 5rem;
-    margin-right: 30rem;
-    width: 60%;
-    height: 450px;
-    margin-bottom: 10rem;
-}
-.mo__image__SobreNosotros {
-    padding: 5rem;
-}
-.mo__text__SobreNosotros {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
-    
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem;
-}
-.mo__inicio__SobreNosotros {
-    font-size: larger;
-}
-.ana__SobreNosotros {
-    display: flex;
-    background-color: #ffc6b5aa;
     align-items: center;
-    padding-left: 5rem;
-    margin-left: 30rem;
-    width: 60%;
-    height: 450px;
-    margin-bottom: 10rem;
 }
-.ana__image__SobreNosotros {
-    padding: 5rem;
+.equipo__img {
+    padding-top: 3rem;
+    width: 900px;
 }
-.ana__text__SobreNosotros {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem; 
+.equipo__text {
+    text-align: center;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem;
-    text-align: right;
-}
-.ana__inicio__SobreNosotros {
-    font-size: larger;
-    text-align: right;
-}
-.rebe__SobreNosotros {
-    display: flex;
-    background-color: #ffc6b5aa;
-    margin-left: 5rem;
-    justify-content: left;
-    align-items: center;
-    padding-right: 5rem;
-    margin-right: 30rem;
-    width: 60%;
-    height: 450px;
-    margin-bottom: 10rem;
-}
-.rebe__image__SobreNosotros {
-    padding: 5rem;
-}
-.rebe__text__SobreNosotros {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-    
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem;
-}
-.rebe__inicio__SobreNosotros {
-    font-size: larger;
+    padding: 3rem;
+    font-size: 18px;
 }
 
 /*Main contacto*/
@@ -1592,6 +1534,22 @@ li {
         gap: 1rem;
         padding-top: 12rem;
     }
+
+    .ludesigns__SobreNosotros {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .lu__SobreNosotros {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .lu__text__SobreNosotros {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .lu__image__SobreNosotros {
+        padding-right: 0px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -1759,6 +1717,32 @@ li {
     }
     .premium__text__paquete {
         margin-right: 20px;
+    }
+
+    .ludesigns__SobreNosotros {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .lu__SobreNosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .lu__text__SobreNosotros {
+        text-align: center;
+        padding-top: 0rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .equipo__img {
+        padding: 2rem;
+        max-width: 750px;
+    }
+    .equipo__text {
+        padding-top: 0rem;
+        padding-bottom: 2rem;
     }
 }
 
@@ -1990,6 +1974,37 @@ li {
     }
     .premium__paquete__galleria {
         max-width: 100%;
+    }
+    .ludesigns__SobreNosotros {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .ludesigns__SobreNosotros {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .lu__SobreNosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .lu__text__SobreNosotros {
+        text-align: center;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .lu__image__SobreNosotros {
+        width: 100%;
+        padding: 1rem;
+    }
+    .equipo {
+        margin-bottom: 6rem;
+    }
+    .equipo__img {
+        width: 100%;
     }
 }
 
@@ -2223,5 +2238,39 @@ li {
     }
     .premium__paquete__galleria {
         max-width: 100%;
+    }
+    .presentacion__titulo__SobreNosotros {
+        font-size: 70px;
+    }
+    .ludesigns__SobreNosotros {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .ludesigns__SobreNosotros {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .lu__SobreNosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .lu__text__SobreNosotros {
+        text-align: center;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .lu__image__SobreNosotros {
+        width: 100%;
+        padding: 1rem;
+    }
+    .equipo {
+        margin-bottom: 6rem;
+    }
+    .equipo__img {
+        width: 100%;
     }
 }
