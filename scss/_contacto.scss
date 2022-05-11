@@ -1,0 +1,110 @@
+.presentacion__contacto {
+    width: 100%;
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/portada_5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+
+    .presentacion__titulo__contacto {
+        font-family: 'Metal', cursive;
+        font-size: 80px;
+        color: white;
+    }
+
+    .presentacion__text__contacto {
+        font-family: 'Metal', cursive;
+        font-size: 24px;
+        color: white;
+    }
+}
+
+.formulario__contacto {
+    padding: 8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-image: url(../images/portada_9.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+
+    .sexo__contacto {
+        display: flex;
+        gap: 275px;
+        padding-bottom: 1rem;
+    }
+
+    .button__contacto__container {
+        display: flex;
+        gap: 100px;
+    
+        .button__contacto {
+            text-transform: uppercase;
+            width: 150px;
+            height: 60px;
+        }
+        .button__contacto span {
+            position: relative;
+            z-index: 2;
+            transition: .3s ease all;
+            font-size: 20px;
+        }
+        .button__contacto::after {
+            content: "";
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            z-index: 1;
+            transition: .3s ease-in-out all;
+            transform-origin: center;
+            border-radius: 100px;
+        }
+        .button__contacto:hover::after {
+            transform: scale(20);
+            background-color: #ff7876;
+        }
+    }
+    
+    .button__contacto__limpiar {
+        text-transform: uppercase;
+        background: none;
+        border: none;
+        width: 150px;
+        height: 60px;
+        background-color: #ff78769a;
+    }
+    .button__contacto__limpiar span {
+        position: relative;
+        z-index: 2;
+        transition: .3s ease all;
+        font-size: 20px;
+    }
+    .button__contacto__limpiar::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        z-index: 1;
+        transition: .3s ease-in-out all;
+        transform-origin: center;
+        border-radius: 100px;
+    }
+    .button__contacto__limpiar:hover::after {
+        transform: scale(40);
+        background-color: #ff7876;
+    }
+}
+
+.controls__contacto {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
