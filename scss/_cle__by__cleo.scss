@@ -1,0 +1,59 @@
+.clebycleo__main {
+    display: flex;
+    justify-content: center;
+
+    .clebycleo__images {
+        display: grid;
+        padding-top: 15rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        max-width: 80%;
+        min-height: 100px;
+        grid-template-columns: repeat(3, fr);
+        grid-template-rows: repeat(7, fr);
+        gap: 4rem;
+    
+        grid-template-areas:
+            "clel clel clel"
+            "clel clel clel"
+            "clel clel clel"
+            "cle1 cle1 cle2"
+            "cle1 cle1 cle3"
+            "cle4 cle5 cle5"
+            "cle6 cle5 cle5"
+        ;
+        
+        .clebycleo__logo {
+            grid-area: clel;   
+        }
+            
+        .clebycleo__1 {
+            grid-area: cle1;
+        }
+            
+        .clebycleo__2 {
+            grid-area: cle2;
+        }
+            
+        .clebycleo__3 {
+            grid-area: cle3;
+        }
+            
+        .clebycleo__4 {
+            grid-area: cle4;
+        }
+            
+        .clebycleo__5 {
+            grid-area: cle5;
+        }
+            
+        .clebycleo__6 {
+            grid-area: cle6;
+        }         
+    }
+}
+
+.clebycleo__imagen {
+    width: 100%;
+    height: 100%;
+}

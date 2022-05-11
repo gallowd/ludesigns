@@ -1,0 +1,59 @@
+.vida__main {
+    display: flex;
+    justify-content: center;
+
+    .vida__images {
+        display: grid;
+        padding-top: 15rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        max-width: 80%;
+        min-height: 100px;
+        grid-template-columns: repeat(3, fr);
+        grid-template-rows: repeat(7, fr);
+        gap: 4rem;
+    
+        grid-template-areas:
+            "vidal vidal vidal"
+            "vidal vidal vidal"
+            "vidal vidal vidal"
+            "vida1 vida1 vida2"
+            "vida1 vida1 vida3"
+            "vida4 vida5 vida5"
+            "vida6 vida5 vida5"
+        ;
+        
+        .vida__logo {
+            grid-area: vidal;   
+        }
+        
+        .vida__1 {
+            grid-area: vida1;
+        }
+        
+        .vida__2 {
+            grid-area: vida2;
+        }
+        
+        .vida__3 {
+            grid-area: vida3;
+        }
+        
+        .vida__4 {
+            grid-area: vida4;
+        }
+        
+        .vida__5 {
+            grid-area: vida5;
+        }
+        
+        .vida__6 {
+            grid-area: vida6;
+        }
+    }
+}
+
+.vida__imagen {
+    width: 100%;
+    height: 100%;
+}
