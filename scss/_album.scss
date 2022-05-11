@@ -52,11 +52,11 @@
     margin: 1rem;
     align-items: center;
     justify-content: center;  
-    background-color: $bgphoto;
+    background-color: #ff90403d;
     border-radius: 10px;
     transition: .5s ease-in-out all;
     .album__photo:hover {
-        background-color: $bgphotohover;
+        background-color: #ff904082;
         transform: scale(1.05);
     }
 
