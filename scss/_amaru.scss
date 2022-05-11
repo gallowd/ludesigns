@@ -1,0 +1,59 @@
+.amaru__main {
+    display: flex;
+    justify-content: center;
+
+    .amaru__images {
+        display: grid;
+        padding-top: 15rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        max-width: 80%;
+        min-height: 100px;
+        grid-template-columns: repeat(3, fr);
+        grid-template-rows: repeat(7, fr);
+        gap: 4rem;
+    
+        grid-template-areas:
+            "amarul amarul amarul"
+            "amarul amarul amarul"
+            "amarul amarul amarul"
+            "amaru1 amaru1 amaru2"
+            "amaru1 amaru1 amaru3"
+            "amaru4 amaru5 amaru5"
+            "amaru6 amaru5 amaru5"
+        ; 
+
+        .amaru__logo {
+            grid-area: amarul;   
+        }
+
+        .amaru__1 {
+            grid-area: amaru1;
+        }
+
+        .amaru__2 {
+            grid-area: amaru2;
+        }
+
+        .amaru__3 {
+            grid-area: amaru3;
+        }
+
+        .amaru__4 {
+            grid-area: amaru4;
+        }
+
+        .amaru__5 {
+            grid-area: amaru5;
+        }
+        
+        .amaru__6 {
+            grid-area: amaru6;
+        }
+    }
+}
+
+.amaru__imagen {
+    width: 100%;
+    height: 100%;
+}

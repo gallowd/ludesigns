@@ -1,0 +1,59 @@
+.maillot__main {
+    display: flex;
+    justify-content: center;
+
+    .maillot__images {
+        display: grid;
+        padding-top: 15rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        max-width: 80%;
+        min-height: 100px;
+        grid-template-columns: repeat(3, fr);
+        grid-template-rows: repeat(7, fr);
+        gap: 4rem;
+    
+        grid-template-areas:
+            "maillotl maillotl maillotl"
+            "maillotl maillotl maillotl"
+            "maillotl maillotl maillotl"
+            "maillot1 maillot1 maillot2"
+            "maillot1 maillot1 maillot3"
+            "maillot4 maillot5 maillot5"
+            "maillot6 maillot5 maillot5"
+        ;
+        
+        .maillot__logo {
+            grid-area: maillotl;   
+        }
+        
+        .maillot__1 {
+            grid-area: maillot1;
+        }
+        
+        .maillot__2 {
+            grid-area: maillot2;
+        }
+        
+        .maillot__3 {
+            grid-area: maillot3;
+        }
+        
+        .maillot__4 {
+            grid-area: maillot4;
+        }
+        
+        .maillot__5 {
+            grid-area: maillot5;
+        }
+        
+        .maillot__6 {
+            grid-area: maillot6;
+        }
+    }
+}
+
+.maillot__imagen {
+    width: 100%;
+    height: 100%;
+}

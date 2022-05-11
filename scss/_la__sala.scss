@@ -1,0 +1,59 @@
+.sala__main {
+    display: flex;
+    justify-content: center;
+
+    .sala__images {
+        display: grid;
+        padding-top: 15rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        max-width: 80%;
+        min-height: 100px;
+        grid-template-columns: repeat(3, fr);
+        grid-template-rows: repeat(7, fr);
+        gap: 4rem;
+    
+        grid-template-areas:
+            "salal salal salal"
+            "salal salal salal"
+            "salal salal salal"
+            "sala1 sala1 sala2"
+            "sala1 sala1 sala3"
+            "sala4 sala5 sala5"
+            "sala6 sala5 sala5"
+        ;
+        
+        .sala__logo {
+            grid-area: salal;   
+        }
+        
+        .sala__1 {
+            grid-area: sala1;
+        }
+        
+        .sala__2 {
+            grid-area: sala2;
+        }
+        
+        .sala__3 {
+            grid-area: sala3;
+        }
+        
+        .sala__4 {
+            grid-area: sala4;
+        }
+        
+        .sala__5 {
+            grid-area: sala5;
+        }
+        
+        .sala__6 {
+            grid-area: sala6;
+        }
+    }
+}
+
+.sala__imagen {
+    width: 100%;
+    height: 100%;
+}

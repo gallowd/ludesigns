@@ -1,0 +1,59 @@
+.lolita__main {
+    display: flex;
+    justify-content: center;
+
+    .lolita__images {
+        display: grid;
+        padding-top: 15rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        max-width: 80%;
+        min-height: 100px;
+        grid-template-columns: repeat(3, fr);
+        grid-template-rows: repeat(7, fr);
+        gap: 4rem;
+    
+        grid-template-areas:
+            "lolital lolital lolital"
+            "lolital lolital lolital"
+            "lolital lolital lolital"
+            "lolita1 lolita1 lolita2"
+            "lolita1 lolita1 lolita3"
+            "lolita4 lolita5 lolita5"
+            "lolita6 lolita5 lolita5"
+        ; 
+    
+        .lolita__logo {
+            grid-area: lolital;   
+        }
+        
+        .lolita__1 {
+            grid-area: lolita1;
+        }
+        
+        .lolita__2 {
+            grid-area: lolita2;
+        }
+        
+        .lolita__3 {
+            grid-area: lolita3;
+        }
+        
+        .lolita__4 {
+            grid-area: lolita4;
+        }
+        
+        .lolita__5 {
+            grid-area: lolita5;
+        }
+        
+        .lolita__6 {
+            grid-area: lolita6;
+        }
+    }
+}
+
+.lolita__imagen {
+    width: 100%;
+    height: 100%;
+}
