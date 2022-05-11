@@ -55,10 +55,6 @@
     background-color: #ff90403d;
     border-radius: 10px;
     transition: .5s ease-in-out all;
-    .album__photo:hover {
-        background-color: #ff904082;
-        transform: scale(1.05);
-    }
 
     .album__photo__text {
         font-family: 'BIZ UDPMincho', serif;
@@ -77,4 +73,8 @@
         margin-left: 3rem;
         margin-right: 3rem;
     }
+}
+.album__photo:hover {
+    background-color: #ff904082;
+    transform: scale(1.05);
 }
