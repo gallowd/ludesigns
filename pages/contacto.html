@@ -62,31 +62,31 @@
 
         <section> <!--Presentacion del medio de contacto-->
 
-            <div class="presentacion__contacto"> <!--Descripcion y presentacion-->
-                <h1 class="presentacion__titulo__contacto">Contactanos y hablemos</h1>
-                <p class="presentacion__text__contacto">Para solicitar un paquete en especifico, hacer preguntas sobre las mismas o algun otro tema, dejanos tu informacion y te contactaremos enseguida.</p>
+            <div class="presentacion__contact"> <!--Descripcion y presentacion-->
+                <h1 class="presentacion__titulo__contact">Contactanos y hablemos</h1>
+                <p class="presentacion__text__contact">Para solicitar un paquete en especifico, hacer preguntas sobre las mismas o algun otro tema, dejanos tu informacion y te contactaremos enseguida.</p>
             </div>
     
         </section>
 
         <section> <!--formulario-->
 
-            <form class="formulario__contacto">
+            <!-- <form class="formulario__contacto">
 
-                <div> <!--nombre-->
+                <div> 
                     <label for="nombre"></label>
                     <input required type="text" id="nombre" name="nombre" placeholder="Nombre" class="controls__contacto">
                 </div>
-                <div> <!--apellido-->
+                <div> 
                     <label for="apellido"></label>
                     <input required type="text" id="apellido" name="apellido" placeholder="Apellido" class="controls__contacto">
                 </div>
-                <div> <!--email-->
+                <div> 
                     <label for="email"></label>
                     <input required type="text" id="email" name="email" placeholder="Email" class="controls__contacto">
                 </div>
 
-                <div> <!--tipo de pregunta-->
+                <div> 
                     <label for="tipo"></label>
                     <select required name="tipo" id="tipo" class="controls__contacto">
                         <option disabled selected="">Motivo</option>
@@ -99,7 +99,7 @@
                     </select>
                 </div>
 
-                <section class="sexo__contacto"> <!--sexo-->
+                <section class="sexo__contacto"> 
                     <div> 
                         <label for="hombre">Hombre</label>
                         <input required type="radio" id="hombre" name="genero" value="hombre">
@@ -111,7 +111,7 @@
                     </div>
                 </section>
 
-                <div> <!--comentarios-->
+                <div> 
                     <label for="comentario"></label>
                     <textarea name="comentario" id="comentario" cols="52" rows="20" placeholder="Comentarios"></textarea>
                     <div class="button__contacto__container">
@@ -120,7 +120,39 @@
                     </div>
                 </div>
 
-            </form>
+            </form> -->
+
+            <div class="content">
+
+                <div class="contact__form">
+                    <form action="">
+                        <p>
+                            <label for="fullname">Nombre completo</label>
+                            <input required type="text" name="fullname" id="fullname">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input required type="email" name="email" id="email">
+                        </p>
+                        <p>
+                            <label for="phone">Nro de telefono</label>
+                            <input required type="tel" name="phone" id="phone">
+                        </p>
+                        <p>
+                            <label for="affair">Asunto</label>
+                            <input required type="text" name="affair" id="affair">
+                        </p>
+                        <p class="block">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" rows="3" id="message"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+
+            </div>
 
         </section>
 

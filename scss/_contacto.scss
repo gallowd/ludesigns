@@ -1,4 +1,4 @@
-.presentacion__contacto {
+.presentacion__contact {
     width: 100%;
     height: 725px;
     display: flex;
@@ -9,102 +9,158 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 5rem;
+    text-align: center;
 
-    .presentacion__titulo__contacto {
+    .presentacion__titulo__contact {
         font-family: 'Metal', cursive;
         font-size: 80px;
         color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
-
-    .presentacion__text__contacto {
+    .presentacion__text__contact {
         font-family: 'Metal', cursive;
         font-size: 24px;
         color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
-.formulario__contacto {
-    padding: 8rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    gap: 1rem;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+// .formulario__contacto {
+//     padding: 8rem;
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: left;
+//     gap: 1rem;
+//     margin-top: 10rem;
+//     margin-bottom: 10rem;
+//     background-image: url(../images/portada_9.jpg);
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     font-family: 'Red Hat Display', sans-serif;
+
+//     .sexo__contacto {
+//         display: flex;
+//         gap: 275px;
+//         padding-bottom: 1rem;
+//     }
+
+//     .button__contacto__container {
+//         display: flex;
+//         gap: 100px;
+    
+//         .button__contacto {
+//             text-transform: uppercase;
+//             width: 150px;
+//             height: 60px;
+//         }
+//         .button__contacto span {
+//             position: relative;
+//             z-index: 2;
+//             transition: .3s ease all;
+//             font-size: 20px;
+//         }
+//         .button__contacto::after {
+//             content: "";
+//             width: 10px;
+//             height: 10px;
+//             position: absolute;
+//             z-index: 1;
+//             transition: .3s ease-in-out all;
+//             transform-origin: center;
+//             border-radius: 100px;
+//         }
+//         .button__contacto:hover::after {
+//             transform: scale(20);
+//             background-color: #ff7876;
+//         }
+//     }
+    
+//     .button__contacto__limpiar {
+//         text-transform: uppercase;
+//         background: none;
+//         border: none;
+//         width: 150px;
+//         height: 60px;
+//         background-color: #ff78769a;
+//     }
+//     .button__contacto__limpiar span {
+//         position: relative;
+//         z-index: 2;
+//         transition: .3s ease all;
+//         font-size: 20px;
+//     }
+//     .button__contacto__limpiar::after {
+//         content: "";
+//         width: 10px;
+//         height: 10px;
+//         position: absolute;
+//         z-index: 1;
+//         transition: .3s ease-in-out all;
+//         transform-origin: center;
+//         border-radius: 100px;
+//     }
+//     .button__contacto__limpiar:hover::after {
+//         transform: scale(40);
+//         background-color: #ff7876;
+//     }
+// }
+
+// .controls__contacto {
+//     width: 400px;
+//     height: 30px;
+//     margin-bottom: 1rem;
+// }
+
+
+
+
+
+
+.content {
+    margin-top: 7rem;
     background-image: url(../images/portada_9.jpg);
-    background-repeat: no-repeat;
-    font-family: 'Red Hat Display', sans-serif;
-
-    .sexo__contacto {
-        display: flex;
-        gap: 275px;
-        padding-bottom: 1rem;
-    }
-
-    .button__contacto__container {
-        display: flex;
-        gap: 100px;
-    
-        .button__contacto {
-            text-transform: uppercase;
-            width: 150px;
-            height: 60px;
-        }
-        .button__contacto span {
-            position: relative;
-            z-index: 2;
-            transition: .3s ease all;
-            font-size: 20px;
-        }
-        .button__contacto::after {
-            content: "";
-            width: 10px;
-            height: 10px;
-            position: absolute;
-            z-index: 1;
-            transition: .3s ease-in-out all;
-            transform-origin: center;
-            border-radius: 100px;
-        }
-        .button__contacto:hover::after {
-            transform: scale(20);
-            background-color: #ff7876;
-        }
-    }
-    
-    .button__contacto__limpiar {
-        text-transform: uppercase;
-        background: none;
-        border: none;
-        width: 150px;
-        height: 60px;
-        background-color: #ff78769a;
-    }
-    .button__contacto__limpiar span {
-        position: relative;
-        z-index: 2;
-        transition: .3s ease all;
-        font-size: 20px;
-    }
-    .button__contacto__limpiar::after {
-        content: "";
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        z-index: 1;
-        transition: .3s ease-in-out all;
-        transform-origin: center;
-        border-radius: 100px;
-    }
-    .button__contacto__limpiar:hover::after {
-        transform: scale(40);
-        background-color: #ff7876;
-    }
+    background-position: center;
 }
 
-.controls__contacto {
-    width: 400px;
-    height: 30px;
-    margin-bottom: 1rem;
+.contact__form {
+    background-color: rgba(255, 255, 255, 0.352);
+    width: 60%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact__form form p {
+    margin: 0px;
+    padding: 1rem;
+}
+
+.contact__form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact__form form button,
+.contact__form form input,
+.contact__form form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black ;
+    border-bottom: 1px solid black;
+}
+
+.contact__form form button {
+    background-color: #ff7876;
+    border: 0px;
+    text-transform: uppercase;
+    padding: 1rem;
 }
