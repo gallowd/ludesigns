@@ -183,22 +183,27 @@
             padding-top: 12rem;
         }
     }
-    
 
-    .ludesigns__SobreNosotros {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-    .lu__SobreNosotros {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-    .lu__text__SobreNosotros {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .lu__image__SobreNosotros {
-        padding-right: 0px;
+    .SobreNosotros {
+
+        .ludesigns__SobreNosotros {
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+
+        .lu__SobreNosotros {
+            margin-left: 2rem;
+            margin-right: 2rem;
+
+            .lu__image__SobreNosotros {
+                padding-right: 0px;
+            }
+
+            .lu__text__SobreNosotros {
+                padding-left: 3rem;
+                padding-right: 3rem; 
+            }
+        }
     }
 }
 
@@ -440,47 +445,76 @@
         }
     }
 
-    .basico__paquete__galleria {
-        width: 100%;
-        height: 100%;
-    }
-    .basico__text__paquete {
-        margin-left: 20px;
-    }
-    .empresarial__text__paquete {
-        margin-right: 20px;
-    }
-    .intermedio__text__paquete {
-        margin-left: 20px;
-    }
-    .premium__text__paquete {
-        margin-right: 20px;
+    .PaquetesLogo {
+
+        .basico__paquete {
+
+            .basico__paquete__galleria {
+                width: 100%;
+                height: 100%;
+            }
+
+            .basico__text__paquete {
+                margin-left: 20px;
+            }
+        }
+
+        .empresarial__paquete {
+
+            .empresarial__text__paquete {
+                margin-right: 20px;
+            }
+        }
+
+        .intermedio__paquete {
+
+            .intermedio__text__paquete {
+                margin-left: 20px;
+            }
+        }
+
+        .premium__paquete {
+
+            .premium__text__paquete {
+                margin-right: 20px;
+            }
+        }
     }
 
-    .ludesigns__SobreNosotros {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-    .lu__SobreNosotros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
-    .lu__text__SobreNosotros {
-        text-align: center;
-        padding-top: 0rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .equipo__img {
-        padding: 2rem;
-        max-width: 750px;
-    }
-    .equipo__text {
-        padding-top: 0rem;
-        padding-bottom: 2rem;
+    .SobreNosotros {
+
+        .ludesigns__SobreNosotros {
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }    
+
+        .lu__SobreNosotros {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 4rem;
+            margin-right: 4rem;
+
+            .lu__text__SobreNosotros {
+                text-align: center;
+                padding-top: 0rem;
+                padding-left: 3rem;
+                padding-right: 3rem; 
+            }
+        }
+
+        .equipo {
+
+            .equipo__img {
+                padding: 2rem;
+                max-width: 750px;
+            }
+
+            .equipo__text {
+                padding-top: 0rem;
+                padding-bottom: 2rem;
+            }
+        }
     }
 }
 
@@ -733,97 +767,119 @@
         }
     }
 
-    .basico__paquete {
-        display: flex;
-        flex-direction: column-reverse;  
-        padding-top: 9rem;    
-    }
-    .empresarial__paquete {
-        display: flex;
-        flex-direction: column;
-        padding-top: 6rem;
-    }
-    .intermedio__paquete {
-        display: flex;
-        flex-direction: column-reverse;
-        padding-top: 6rem;
-    }
-    .premium__paquete {
-        display: flex;
-        flex-direction: column;
-        padding-top: 6rem;
-    }
-    .basico__text__paquete {
-        margin: 0px;
-        margin-bottom: 3rem;
-    }
-    .empresarial__text__paquete {
-        margin: 0px;
-        margin-bottom: 3rem;
-    }
-    .intermedio__text__paquete {
-        margin: 0px;
-        margin-bottom: 3rem;
-    }
-    .premium__text__paquete {
-        margin: 0px;
-        margin-bottom: 3rem;
-    }
-    .basico__paquete__galleria {
-        max-width: 100%;
-    }
-    .empresarial__paquete__galleria {
-        max-width: 100%;
-    }
-    .intermedio__paquete__galleria {
-        max-width: 100%;
-    }
-    .premium__paquete__galleria {
-        max-width: 100%;
+    .PaquetesLogo {
+
+        .basico__paquete {
+            display: flex;
+            flex-direction: column-reverse;  
+            padding-top: 12rem;
+
+            .basico__paquete__galleria {
+                max-width: 100%;
+            }
+
+            .basico__text__paquete {
+                margin: 0px;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .empresarial__paquete {
+            display: flex;
+            flex-direction: column;
+            padding-top: 6rem;
+
+            .empresarial__paquete__galleria {
+                max-width: 100%;
+            }
+
+            .empresarial__text__paquete {
+                margin: 0px;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .intermedio__paquete {
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 6rem;
+
+            .intermedio__paquete__galleria {
+                max-width: 100%;
+            }
+
+            .intermedio__text__paquete {
+                margin: 0px;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .premium__paquete {
+            display: flex;
+            flex-direction: column;
+            padding-top: 6rem;
+
+            .premium__paquete__galleria {
+                max-width: 100%;
+            }
+            
+            .premium__text__paquete {
+                margin: 0px;
+                margin-bottom: 3rem;
+            }
+        }
     }
 
-    .ludesigns__SobreNosotros {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    .ludesigns__SobreNosotros {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-    .lu__SobreNosotros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
-    .lu__text__SobreNosotros {
-        text-align: center;
-        padding-top: 3rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .lu__image__SobreNosotros {
-        width: 100%;
-        padding: 1rem;
-    }
-    .equipo {
-        margin-bottom: 6rem;
-    }
-    .equipo__img {
-        width: 100%;
+    .SobreNosotros {
+
+        .ludesigns__SobreNosotros {
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+
+        .lu__SobreNosotros {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 4rem;
+            margin-right: 4rem;
+
+            .lu__image__SobreNosotros {
+                width: 100%;
+                padding: 1rem;
+            }
+
+            .lu__text__SobreNosotros {
+                text-align: center;
+                padding-top: 3rem;
+                padding-left: 3rem;
+                padding-right: 3rem; 
+            }
+        }
+
+        .equipo {
+            margin-bottom: 6rem;
+
+            .equipo__img {
+                width: 100%;
+            }
+        }
     }
 
+    .contacto {
 
-    .contact__form {
-        width: 75%;
-    }
+        .content {
 
-    .contact__form form {
-        display: flex;
-        flex-direction: column;
+            .contact__form {
+                width: 75%;
+
+                .contact__form form {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
     }
-    
 }
 
 @media screen and (max-width: 424px) {
@@ -1076,97 +1132,135 @@
         }
     }
 
-    .basico__paquete {
-        display: flex;
-        flex-direction: column-reverse;  
-        padding-top: 9rem;    
-    }
-    .empresarial__paquete {
-        display: flex;
-        flex-direction: column;
-        padding-top: 6rem;
-    }
-    .intermedio__paquete {
-        display: flex;
-        flex-direction: column-reverse;
-        padding-top: 6rem;
-    }
-    .premium__paquete {
-        display: flex;
-        flex-direction: column;
-        padding-top: 6rem;
-    }
-    .basico__text__paquete {
-        margin: 0px;
-        margin-bottom: 3rem;
-    }
-    .empresarial__text__paquete {
-        margin: 0px;
-        margin-bottom: 3rem;
-    }
-    .intermedio__text__paquete {
-        margin: 0px;
-        margin-bottom: 3rem;
-    }
-    .premium__text__paquete {
-        margin: 0px;
-        margin-bottom: 3rem;
-    }
-    .basico__paquete__galleria {
-        max-width: 100%;
-    }
-    .empresarial__paquete__galleria {
-        max-width: 100%;
-    }
-    .intermedio__paquete__galleria {
-        max-width: 100%;
-    }
-    .premium__paquete__galleria {
-        max-width: 100%;
-    }
-    .presentacion__titulo__SobreNosotros {
-        font-size: 70px;
-    }
-    
-    .ludesigns__SobreNosotros {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    .ludesigns__SobreNosotros {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-    .lu__SobreNosotros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
-    .lu__text__SobreNosotros {
-        text-align: center;
-        padding-top: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .lu__image__SobreNosotros {
-        width: 100%;
-        padding: 1rem;
-    }
-    .equipo {
-        margin-bottom: 6rem;
-    }
-    .equipo__img {
-        width: 100%;
-    }
-    
-    
+    .PaquetesLogo {
 
-    .contact__form {
-        width: 80%;
+        .basico__paquete {
+            display: flex;
+            flex-direction: column-reverse;  
+            padding-top: 9rem;
+
+            .basico__paquete__galleria {
+                max-width: 100%;
+            }
+
+            .basico__text__paquete {
+                margin: 0px;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .empresarial__paquete {
+            display: flex;
+            flex-direction: column;
+            padding-top: 6rem;
+
+            .empresarial__paquete__galleria {
+                max-width: 100%;
+            }
+
+            .empresarial__text__paquete {
+                margin: 0px;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .intermedio__paquete {
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 6rem;
+
+            .intermedio__paquete__galleria {
+                max-width: 100%;
+            }
+
+            .intermedio__text__paquete {
+                margin: 0px;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .premium__paquete {
+            display: flex;
+            flex-direction: column;
+            padding-top: 6rem;
+
+            .premium__paquete__galleria {
+                max-width: 100%;
+            }
+            
+            .premium__text__paquete {
+                margin: 0px;
+                margin-bottom: 3rem;
+            }
+        }
     }
-    .contact__form form {
-        display: flex;
-        flex-direction: column;
+    
+    .SobreNosotros {
+
+        .presentacion__SobreNosotros {
+
+            .presentacion__titulo__SobreNosotros {
+                font-size: 75px;
+            }
+        }
+
+        .ludesigns__SobreNosotros {
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+
+        .lu__SobreNosotros {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 2rem;
+            margin-right: 2rem;
+
+            .lu__image__SobreNosotros {
+                width: 100%;
+                padding: 1rem;
+            }
+
+            .lu__text__SobreNosotros {
+                text-align: center;
+                padding-top: 1rem;
+                padding-left: 1rem;
+                padding-right: 1rem; 
+            }
+        }
+
+        .equipo {
+            margin-bottom: 6rem;
+
+            .equipo__img {
+                width: 100%;
+            }
+        }
+    } 
+
+    .contacto {
+
+        .presentacion__contact {
+
+            .presentacion__titulo__contact {
+                font-size: 60px;
+            }
+
+            .presentacion__text__contact {
+                font-size: 22px;
+            }
+        }
+
+        .content {
+
+            .contact__form {
+                width: 80%;
+
+                .contact__form form {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
     }
 }
