@@ -1,7 +1,5 @@
 @import './variables';
 
-@import './media__queries';
-
 @import './index';
 
 @import './footer';
@@ -33,6 +31,8 @@
 @import './sobre__nosotros';
 
 @import './contacto';
+
+@import './media__queries';
 
 *{
     padding: 0;
