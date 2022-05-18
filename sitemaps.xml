@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://github.com/gallowd/ludesigns</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/issues</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/pulls</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/actions</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/projects?type=beta</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/security</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/cb5c436f590e0389f73c790c0cc69035fb613b08</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/blob/master/README.md</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/blob/master/index.html</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/blob/master/package.json</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/releases</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/compare</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/projects</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/security/policy</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/security/advisories</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/ae3ea9f1dc4f580eb8de47ebc3b4dd9d32ebc363</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/76e604c85019b61865ef1500985e37b64503c5a8</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/blob/cb5c436f590e0389f73c790c0cc69035fb613b08/README.md</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/find/master</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/blob/master/README.md?plain=1</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/blob/cb5c436f590e0389f73c790c0cc69035fb613b08/index.html</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/blob/cb5c436f590e0389f73c790c0cc69035fb613b08/package.json</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels?sort=name-asc</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels?sort=name-desc</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels?sort=count-desc</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels?sort=count-asc</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/bug</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/documentation</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/duplicate</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/enhancement</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/good%20first%20issue</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/help%20wanted</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/invalid</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/question</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/labels/wontfix</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/security/advisories?state=published</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/2e6c28dbd31e66e7b80f9b285826484a63bf4581</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/9144d66a672aa0706271a49d1eee37058ebdaf39</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/find/cb5c436f590e0389f73c790c0cc69035fb613b08</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/blob/cb5c436f590e0389f73c790c0cc69035fb613b08/README.md?plain=1</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/d12f81f886b497849db2a92c6dbf12c159f7a195</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/70f7543739097fd1f67188bb89c31f509428a95f</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/7d5a7a737eacae3b479a7ce14346a0f853fad271</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/38e7f67d19c32088b4ce8e2d097a75a04fee1c7e</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/40a566e7b7a9ad1367a417ab70b841f2b2dfc8d6</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/20882cd18adb2fbb6582d78caa5779e6cec73c9d</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/350a8d1c38483629999060e91fed58915e0aca0d</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/3d23022bc400e8257db408a3d0bcffe5f4bba0a0</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/019cc4b60d3990d15430997abf880af91f16bbe1</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/329671675fcf4724de5251b4bddeeae08d636aca</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/076a6b1a63a10dee277ce941236953bd351a6b19</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/faee30a1f394c056378129caef9f7056b39ae233</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/e716e52df5ee8521365c2641af18eb727eb2c87b</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/b51204c9a2113ae05d8ab160ad847be9742c5ff3</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/761605ce4d8130eb8de37835dc05d079e29e4774</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/1e5510516ca01d211a3d805362587eedf9d6a994</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/b71299ced2fd35bfce414926cf6b459bd61c23ba</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/6b215f281cffd33458dcffc16728c948abef6c99</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/703a7379724a26fe1e4ed8f3afd02767a11ac916</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/520c4111e2a959933c739018deafb3646d1b62d5</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/894b27025a21f8e54ceea4075621d36cc75fe7f9</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/eefff9bdbbb503a87ac7784852f7ddb3dd340b60</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/e17dbdd014fc0735e30170e7c016072535839b5d</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/bad2f424e7b43e73d9273a6362c624912722b746</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/c9e5b09bb2fbc6c17c84e3d7aa4d6028f0a6fa46</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/70435f253bf147824b59d7109b1eee269c80819a</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/441647f7c304935fdf57b918500eb018a5fff389</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/96d4117e7b5ed91356fdc5b682dcf54d0c2ffa7b</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/34717fa62ebde10143ad9a7dd8ef318f0e6b200d</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/a20f2ebad6e1637118bdf38b2ac4dee526003086</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/2688f698c94f3ef4ec8aba2a797ccae41893563a</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/ec3a0e279dd808d69ab48d38b30bd25a44161bf6</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/7f581dabba59e436ad3e0705b71dd0240dc7749b</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/1efd09b47f107ee428d7c98a9f01c17b431fb10e</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/386a16adda2b61d113031e0e43a8db9eb6730d29</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/0ad3650def8b5dc18318a709f3ab61fa6214c565</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/8b170dbb1293b8016a5e58df6fec08d659cc1816</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/gallowd/ludesigns/commit/ccc18af1b0519addbf98cd70de506e14873eda0f</loc>
+  <lastmod>2022-05-18T01:47:52+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+
+
+</urlset>

@@ -1,14 +1,6 @@
 .presentacion__album {
-    width: 100%;
-    min-height: 725px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend .Presentacion;
     background-image: url(../images/portada_7.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 5rem;
 
     .presentacion__titulo__album {
         font-family: 'Metal', cursive;

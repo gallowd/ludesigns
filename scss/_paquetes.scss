@@ -1,15 +1,6 @@
 .presentacion__paquetes {
-    width: 100%;
-    height: 725px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend .Presentacion;
     background-image: url(../images/portada_2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 5rem;
 
     .presentacion__paquetes__titulo {
         font-family: 'Metal', cursive;
