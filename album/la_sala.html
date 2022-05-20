@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Sala</title>
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <meta name="description" content="Diseños completo La Sala">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <link rel="stylesheet" href="../css/inicio.css">
 
     <link rel="icon" type="image/jpg" href="../images/logo_3.png"/>
+
+    <link rel="stylesheet" href="../icons/fontawesome-free-6.1.1-web/css/all.min.css">
 
     <!--Fuente del navegador-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,17 +27,17 @@
     <header class="header pt-0">
         
         <div class="div__logo">
-            <img src="../images/logo.png" width="150" height="78" class="logo d-none d-sm-block mt-2"> <!--Logo-->
+            <img src="../images/logo.png" width="150" height="78" class="logo d-none d-sm-block mt-2" alt=""> <!--Logo-->
         </div>
 
         <div class="container-fluid px-0">
             <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #ffc6b590;">
                 <div class="container-fluid px-3">
-                    <a href="../index.html" class="navbar-brand"><img class="d-sm-none" src="/images/logo.png" width="150" height="78" class="logo"></a>
-                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <a href="../index.html" class="navbar-brand"><img class="d-sm-none" src="../images/logo.png" width="150" height="78" class="logo" alt=""></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div id="#MenuNavegacion" class="collapse navbar-collapse">
+                    <div id="MenuNavegacion" class="collapse navbar-collapse">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="../index.html">Inicio</a></li>
                             <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="../pages/paquetes.html">Paquetes</a></li>
@@ -79,7 +83,7 @@
     <footer class="footer">
 
         <section class="footer__logo"> <!--Logo de Lu Designs-->
-            <img src="../images/logo_2.png" width="90" height="82">
+            <img src="../images/logo_2.png" width="90" height="82" alt="">
         </section>
 
         <section class="footer__down">
@@ -93,15 +97,17 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">   
             
-            <section class="footer__redes"> <!--Redes sociales-->
-                <li><a href="https://www.facebook.com/luisaelena.bolla" target="_blank"><img src="../images/facebook.png" width="12" height="20"></a></li>
-                <li><a href="https://www.instagram.com/lubdesigns/" target="_blank"><img src="../images/instagram.png" width="20" height="20"></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=584248101365" target="_blank"><img src="../images/whatsapp.png" width="22" height="20"></a></li>
-            </section>
+            <ul class="footer__redes"> <!--Redes sociales-->
+                <li><a href="https://www.facebook.com/luisaelena.bolla" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/lubdesigns/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=584248101365" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
 
         </section>
 
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

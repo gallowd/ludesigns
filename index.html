@@ -8,11 +8,13 @@
 
     <meta name="description" content="Diseño de marca e identidad de visual con estilos unicos para impulsar la vision de todo empresario">
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="./css/inicio.css">
 
-    <link rel="icon" type="image/jpg" href="/images/logo_3.png"/>
+    <link rel="icon" type="image/jpg" href="./images/logo_3.png"/>
+
+    <link rel="stylesheet" href="./icons/fontawesome-free-6.1.1-web/css/all.min.css">
 
     <!--Sarabun-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,30 +35,31 @@
 <body>
     
     <header class="header pt-0">
-        
-        <div class="div__logo">
-            <img src="images/logo.png" width="150" height="78" class="logo d-none d-sm-block mt-2"> <!--Logo-->
-        </div>
 
+        <div class="div__logo">
+            <img src="images/logo.png" width="150" height="78" class="logo d-none d-sm-block mt-2" alt=""> 
+        </div>
+        
         <div class="container-fluid px-0">
             <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #ffc6b590;">
                 <div class="container-fluid px-3">
-                    <a href="/index.html" class="navbar-brand"><img class="d-sm-none" src="images/logo.png" width="150" height="78" class="logo"></a>
-                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <a href="/index.html" class="navbar-brand"><img class="d-sm-none" src="./images/logo.png" width="150" height="78" class="logo" alt=""></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div id="#MenuNavegacion" class="collapse navbar-collapse">
+                    <div id="MenuNavegacion" class="collapse navbar-collapse">
                         <ul class="navbar-nav mx-auto">
-                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="index.html">Inicio</a></li>
-                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="pages/paquetes.html">Paquetes</a></li>
-                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="pages/album.html">Album</a></li>
-                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="pages/sobre_nosotros.html">Sobre nosotros</a></li>
-                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="./index.html">Inicio</a></li>
+                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="./pages/paquetes.html">Paquetes</a></li>
+                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="./pages/album.html">Album</a></li>
+                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="./pages/sobre_nosotros.html">Sobre nosotros</a></li>
+                            <li class="nav-item mx-3 d-flex align-items-center text-center"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
+        
     </header>
 
     <main class="index">
@@ -67,7 +70,7 @@
                 <h1 class="titulo__index">¿Diseñamos tu marca juntos?</h1>
                 <p class="parrafo__index">Puedes observar todos mis servicios y de que manera podemos impulsar tu marca</p>
                 <div>
-                    <button class="button__index__paquetes"><a class="nav__link" href="pages/paquetes.html"><span class="paquetes__index">Paquetes</span></a></li></button>
+                    <button class="button__index__paquetes"><a class="nav__link" href="./pages/paquetes.html"><span class="paquetes__index">Paquetes</span></a></button>
                 </div>
             </div>
         
@@ -76,11 +79,11 @@
         <section class="main__index__2"> <!--Presentacion de diseños-->
 
             <div class="disigns__index">
-                <img src="images/flecha izquierda.png" class="arrow__left__index">
-                <img src="images/diseños/maillot/maillot 2.jpg" class="image__left__index">
-                <img src="images/diseños/la sala/la sala 1.jpg" class="image__center__index">
-                <img src="images/diseños/cle by cleo/cle by cleo 1.jpg" class="image__right__index">
-                <img src="images/flecha derecha.png" class="arrow__right__index">
+                <i class="fa-solid fa-angle-left"></i>
+                <img src="./images/diseños/maillot/maillot 2.jpg" class="image__left__index" alt="">
+                <img src="./images/diseños/la sala/la sala 1.jpg" class="image__center__index" alt="">
+                <img src="./images/diseños/cle by cleo/cle by cleo 1.jpg" class="image__right__index" alt="">
+                <i class="fa-solid fa-angle-right"></i>
             </div>
 
             <div class="presentacion__index__2"> <!--Presentacion de los diseños anteriores-->
@@ -88,7 +91,7 @@
             </div>
                 
             <div>
-                <button class="button__index"><a class="nav__link" href="pages/album.html"><span>Album</span></a></button>
+                <button class="button__index"><a class="nav__link" href="./pages/album.html"><span>Album</span></a></button>
             </div>
 
         </section>
@@ -98,7 +101,7 @@
     <footer class="footer">
 
         <section class="footer__logo"> <!--Logo de Lu Designs-->
-            <img src="images/logo_2.png" width="90" height="82">
+            <img src="./images/logo_2.png" width="90" height="82" alt="">
         </section>
 
         <section class="footer__down">
@@ -108,17 +111,17 @@
                 <h6>¿Buscando una identidad de marca unica? En nuestro sitio web oficial Lu Deigns puedes encontrar diseños cautvadores, obtener uno propio y unico para el proposito que tengas</h6>
             </section>
             
-            <section class="footer__redes"> <!--Redes sociales-->
-                <li><a href="https://www.facebook.com/luisaelena.bolla" target="_blank"><img src="images/facebook.png" width="12" height="20"></a></li>
-                <li><a href="https://www.instagram.com/lubdesigns/" target="_blank"><img src="images/instagram.png" width="20" height="20"></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=584248101365" target="_blank"><img src="images/whatsapp.png" width="22" height="20"></a></li>
-            </section>
+            <ul class="footer__redes"> <!--Redes sociales-->
+                <li><a href="https://www.facebook.com/luisaelena.bolla" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/lubdesigns/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=584248101365" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
 
         </section>
 
     </footer>
 
-    <script src="/Ludesigns/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>

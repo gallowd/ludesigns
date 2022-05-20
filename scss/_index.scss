@@ -89,10 +89,8 @@
         align-items: center;
     }
 
-    .arrow__left__index {
-        padding-right: 7px;
-        width: 40px;
-        height: 50px;
+    .fa-solid {
+        font-size: 75px;
         z-index: 1;
     }
 
@@ -123,13 +121,6 @@
     }
     .image__right__index:hover {
         transform: scale(1.1);
-    }
-
-    .arrow__right__index {
-        padding-left: 7px;
-        width: 40px;
-        height: 50px;
-        z-index: 1;
     }
 
     .presentacion__index__2 {

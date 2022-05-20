@@ -880,6 +880,20 @@
             }
         }
     }
+
+    .footer {
+
+        .footer__down {
+            flex-direction: column;
+            gap: 3rem;
+            margin-left: 0rem;
+            margin-right: 0rem;
+            
+            .footer__text {
+                text-align: center;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 424px) {
@@ -1260,6 +1274,20 @@
                     display: flex;
                     flex-direction: column;
                 }
+            }
+        }
+    }
+
+    .footer {
+
+        .footer__down {
+            flex-direction: column;
+            gap: 3rem;
+            margin-left: 0rem;
+            margin-right: 0rem;
+            
+            .footer__text {
+                text-align: center;
             }
         }
     }
