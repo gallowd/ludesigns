@@ -6,6 +6,12 @@
             
             .presentacion__index {
                 margin-top: 2rem;
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+            }
+
+            .parrafo__index {
+                font-size: 20px;
             }
         }
         .main__index__2 {
@@ -22,6 +28,10 @@
     }
 
     .paquetes__main {
+
+        .presentacion__paquetes {
+            padding-top: 0rem;
+        }
 
         .paquetes {
 
@@ -42,6 +52,10 @@
     }
 
     .main__album {
+        
+        .presentacion__album {
+            padding-top: 1rem;
+        }
 
         .album {
             column-gap: 2rem; 
@@ -186,6 +200,10 @@
 
     .SobreNosotros {
 
+        .presentacion__SobreNosotros {
+            padding-top: 2rem;
+        }
+
         .ludesigns__SobreNosotros {
             padding-left: 4rem;
             padding-right: 4rem;
@@ -205,6 +223,13 @@
             }
         }
     }
+
+    .contacto {
+
+        .presentacion__contact {
+            padding-top: 4rem;
+        }
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -215,6 +240,16 @@
             
             .presentacion__index {
                 margin-top: 2rem;
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+            }
+
+            .titulo__index {
+                font-size: 70px;
+            }
+
+            .parrafo__index {
+                font-size: 20px;
             }
         }
         .main__index__2 {
@@ -258,6 +293,7 @@
             align-items: center;
             padding-bottom: 0px;
             background-position: center;
+            padding-top: 0rem;
 
             .presentacion__paquetes__titulo {
                 font-size: 70px;
@@ -304,6 +340,10 @@
     }
 
     .main__album {
+
+        .presentacion__album {
+            padding-top: 1rem;
+        }
 
         .album {
             column-gap: 2rem; 
@@ -483,6 +523,10 @@
 
     .SobreNosotros {
 
+        .presentacion__SobreNosotros {
+            padding-top: 2rem;
+        }
+
         .ludesigns__SobreNosotros {
             padding-left: 4rem;
             padding-right: 4rem;
@@ -516,6 +560,13 @@
             }
         }
     }
+
+    .contacto {
+
+        .presentacion__contact {
+            padding-top: 4rem;
+        }
+    }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -525,23 +576,19 @@
         .main__index__1 {
 
             .presentacion__index {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                align-items: flex-start;
-                background-position: center;
-                padding-bottom: 7rem;
                 margin-top: 0rem;
+                padding-top: 4rem;
+                padding-bottom: 3rem;
         
                 .titulo__index {
-                    width: 80%;
-                    font-size: 35px;
-                    padding-left: 1rem;
+                    font-size: 58px;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
                 }
                 .parrafo__index {
-                    width: 80%;
                     font-size: 20px;
-                    padding-left: 1rem;
                 }
             }
         }
@@ -579,6 +626,7 @@
             align-items: center;
             padding-bottom: 0px;
             background-position: -300px;
+            padding-top: 0rem;
 
             .presentacion__paquetes__titulo {
                 font-size: 70px;
@@ -624,6 +672,10 @@
     }
 
     .main__album {
+
+        .presentacion__album {
+            padding-top: 1rem;
+        }
 
         .album {
             display: flex;
@@ -832,6 +884,10 @@
 
     .SobreNosotros {
 
+        .presentacion__SobreNosotros {
+            padding-top: 0rem;
+        }
+
         .ludesigns__SobreNosotros {
             padding-left: 4rem;
             padding-right: 4rem;
@@ -868,6 +924,10 @@
 
     .contacto {
 
+        .presentacion__contact {
+            padding-top: 2rem;
+        }
+
         .content {
 
             .contact__form {
@@ -903,23 +963,27 @@
         .main__index__1 {
 
             .presentacion__index {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                align-items: flex-start;
-                background-position: center;
-                padding-bottom: 7rem;
+                margin-top: 0rem;
+                padding-top: 4rem;
+                padding-bottom: 3rem;
                 margin-top: 0px;
         
                 .titulo__index {
-                    width: 80%;
-                    font-size: 35px;
+                    font-size: 40px;
                     padding-left: 1rem;
+                    padding-right: 1rem;
+                    margin-left: 0rem;
+                    margin-right: 0rem;
                 }
                 .parrafo__index {
-                    width: 80%;
-                    font-size: 20px;
-                    padding-left: 1rem;
+                    font-size: 15px;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                    margin-left: 0rem;
+                    margin-right: 0rem;
+                }
+                .paquetes__index {
+                    font-size: 22px;
                 }
             }
         }
@@ -957,6 +1021,7 @@
             align-items: center;
             padding-bottom: 0px;
             background-position: -300px;
+            padding-top: 0rem;
 
             .presentacion__paquetes__titulo {
                 font-size: 70px;
@@ -1003,6 +1068,10 @@
 
 
     .main__album {
+
+        .presentacion__album {
+            padding-top: 0rem;
+        }
 
         .album {
             display: flex;
@@ -1212,6 +1281,10 @@
     .SobreNosotros {
 
         .presentacion__SobreNosotros {
+            padding-top: 0rem;
+        }
+
+        .presentacion__SobreNosotros {
 
             .presentacion__titulo__SobreNosotros {
                 font-size: 75px;
@@ -1255,6 +1328,7 @@
     .contacto {
 
         .presentacion__contact {
+            padding-top: 2rem;
 
             .presentacion__titulo__contact {
                 font-size: 60px;

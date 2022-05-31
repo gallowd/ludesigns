@@ -1,6 +1,7 @@
 .presentacion__contact {
     @extend .Presentacion;
     background-image: url(../images/portada_5.jpg);
+    padding-top: 10rem;
 
     .presentacion__titulo__contact {
         font-family: 'Metal', cursive;

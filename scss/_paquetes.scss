@@ -1,6 +1,7 @@
 .presentacion__paquetes {
     @extend .Presentacion;
     background-image: url(../images/portada_2.jpg);
+    padding-top: 10rem;
 
     .presentacion__paquetes__titulo {
         font-family: 'Metal', cursive;

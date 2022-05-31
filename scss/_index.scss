@@ -8,41 +8,46 @@
 
     .presentacion__index {
         display: flex;
-        margin-top: 1rem;
         flex-direction: column;
-        width: 100%;
-        min-height: 600px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         background-image: url(../images/portada_1.2.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding-bottom: 5rem;
-        justify-content: flex-end;   
+        margin-top: 2rem;
+        padding-top: 11rem;
+        padding-bottom: 10rem;
     }
 
     .titulo__index {
-        width: 60%;
         display: flex;
-        padding-left: 2rem;
-        padding-top: 10px;
-        margin-bottom: 0px;
+        justify-content: center;
         font-family: 'Gelasio', serif;
-        font-size: 65px;
+        font-size: 80px;
         color: white;
         background-color: #ff787680;
-        justify-content: left;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 0px;
+        padding-top: 1rem;
     }
 
     .parrafo__index {
-        width: 60%;
         display: flex;
-        padding-left: 2rem;
-        padding-bottom: 10px;
-        margin-bottom: 0px;
+        justify-content: center;
         font-family: 'Sarabun', sans-serif;
-        font-size: 20px;
+        font-size: 25px;
         color: white;
         background-color: #ff787680; 
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding-bottom: 1rem;
     }
 
     .button__index__paquetes {
