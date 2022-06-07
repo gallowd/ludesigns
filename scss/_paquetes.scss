@@ -1,17 +1,17 @@
 .presentacion__paquetes {
     @extend .Presentacion;
-    background-image: url(../images/portada_2.jpg);
+    background-image: url(../images/portada_2.2.jpg);
     padding-top: 10rem;
 
     .presentacion__paquetes__titulo {
-        font-family: 'Metal', cursive;
+        font-family: 'Lora', serif;
         font-size: 80px;
         color: white;
     }
 
     .presentacion__paquetes__text {
-        font-family: 'Metal', cursive;
-        font-size: 24px;
+        font-family: 'Sarabun', sans-serif;
+        font-size: 27px;
         color: white;
     }
 }

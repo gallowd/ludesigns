@@ -1,17 +1,19 @@
 .presentacion__contact {
     @extend .Presentacion;
-    background-image: url(../images/portada_5.jpg);
+    background-image: url(../images/portada_12.png);
     padding-top: 10rem;
-
+    background-position: bottom;
+    
     .presentacion__titulo__contact {
-        font-family: 'Metal', cursive;
+        font-family: 'Lora', serif;
         font-size: 80px;
         color: white;
         padding-left: 1rem;
         padding-right: 1rem;
+
     }
     .presentacion__text__contact {
-        font-family: 'Metal', cursive;
+        font-family: 'Sarabun', sans-serif;
         font-size: 24px;
         color: white;
         padding-left: 1rem;
