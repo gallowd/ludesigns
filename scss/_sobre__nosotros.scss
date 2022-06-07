@@ -1,9 +1,11 @@
 .presentacion__SobreNosotros {
     @extend .Presentacion;
-    background-image: url(../images/portada_6.jpg);
+    background-image: url(../images/portada_6.png);
+    padding-top: 12rem;
+    
 
     .presentacion__titulo__SobreNosotros {
-        font-family: 'Metal', cursive;
+        font-family: 'Lora', serif;
         font-size: 80px;
         color: white;
         text-align: center;
