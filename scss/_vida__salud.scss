@@ -3,7 +3,9 @@
     justify-content: center;
 
     .vida__images {
-        @include AlbumImages(3,7);
+        @extend .AlbumImages;
+        grid-template-columns: repeat(3, fr);
+        grid-template-rows: repeat(7, fr);
         grid-template-areas:
             "vidal vidal vidal"
             "vidal vidal vidal"

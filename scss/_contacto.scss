@@ -8,16 +8,24 @@
         font-family: 'Lora', serif;
         font-size: 80px;
         color: white;
+        margin-bottom: 0%;
         padding-left: 1rem;
         padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        background-color: $bgtext;
 
     }
     .presentacion__text__contact {
         font-family: 'Sarabun', sans-serif;
         font-size: 24px;
         color: white;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        margin-bottom: 0%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: $bgtext;
     }
 }
 
