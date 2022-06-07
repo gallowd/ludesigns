@@ -3,7 +3,9 @@
     justify-content: center;
 
     .mart__images {
-        @include AlbumImages(2,4);
+        @extend .AlbumImages;
+        grid-template-columns: repeat(2, fr);
+        grid-template-rows: repeat(4, fr);
         grid-template-areas:
             "martl martl"
             "martl martl"

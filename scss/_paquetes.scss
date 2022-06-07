@@ -7,12 +7,24 @@
         font-family: 'Lora', serif;
         font-size: 80px;
         color: white;
+        background-color: $bgtext;
+        margin-bottom: 0%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 
     .presentacion__paquetes__text {
         font-family: 'Sarabun', sans-serif;
         font-size: 27px;
         color: white;
+        background-color: $bgtext;
+        margin-bottom: 0%;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
 
