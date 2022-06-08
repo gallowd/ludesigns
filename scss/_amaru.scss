@@ -3,9 +3,7 @@
     justify-content: center;
 
     .amaru__images {
-        @extend .AlbumImages;
-        grid-template-columns: repeat(2, fr);
-        grid-template-rows: repeat(7, fr);
+        @include AlbumImages(4,7);
         grid-template-areas:
             "amarul amarul amarul"
             "amarul amarul amarul"
