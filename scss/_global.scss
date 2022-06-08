@@ -25,8 +25,8 @@ $bgtext: #ff78769f;
     padding-right: 10rem;
     max-width: 80%;
     min-height: 100px;
-    grid-template-columns: repeat($columns, fr);
-    grid-template-rows: repeat($rows, fr);
+    grid-template-columns: repeat($columns, 1fr);
+    grid-template-rows: repeat($rows, 1fr);
     gap: 4rem;
 }
 

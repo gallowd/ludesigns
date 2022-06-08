@@ -3,7 +3,7 @@
     justify-content: center;
 
     .amaru__images {
-        @include AlbumImages(4,7);
+        @include AlbumImages(3,7);
         grid-template-areas:
             "amarul amarul amarul"
             "amarul amarul amarul"
@@ -11,8 +11,7 @@
             "amaru1 amaru1 amaru2"
             "amaru1 amaru1 amaru3"
             "amaru4 amaru5 amaru5"
-            "amaru6 amaru5 amaru5"
-        ; 
+            "amaru6 amaru5 amaru5"; 
 
         .amaru__logo {
             grid-area: amarul;   
