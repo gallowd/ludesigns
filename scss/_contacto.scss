@@ -17,7 +17,7 @@
 
     }
     .presentacion__text__contact {
-        font-family: 'Sarabun', sans-serif;
+        font-family: 'Roboto Slab', serif;
         font-size: 24px;
         color: white;
         margin-bottom: 0%;
@@ -31,8 +31,10 @@
 
 .content {
     margin-top: 7rem;
-    background-image: url(../images/portada_9.jpg);
-    background-position: center;
+    background-image: url(../images/portada_10.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact__form {
